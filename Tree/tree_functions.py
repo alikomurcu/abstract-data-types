@@ -18,11 +18,6 @@ def right(tree):
 def children(tree):
     return tree[1:]
 
-def traverse_children(tree):
-    i = 0
-    children_list = tree[1:]
-    while i < len(children_list):
-
 
 def isempty(tree):
     return tree == []
